@@ -1,0 +1,150 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+@import 'https://fonts.googleapis.com/css?family=Arsenal';
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+div#Dcontainer {
+	/*background-color: brown;*/
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	/*max-width: 900px;*/
+	/*min-width: 500px;*/
+}
+
+	div#Dcab {
+		/*background-color: pink;*/
+		height: 70px;
+		border-bottom: 1px solid #DCDCDC;
+	}
+
+		div#logo {
+			/*background-color: grey;*/
+			width: 90px;
+			height: inherit;
+			text-align: right;
+			float: left;
+		}
+
+			div#logo img {
+				max-width: 100%;
+			    height: 100%;
+			    /*width: auto/9; 	/* Bug de ie8 */
+			}
+
+		div#Dtit {
+			/*background-color: blue;*/
+			width: 250px;
+			height: inherit;
+			display: table;
+			float: left;
+		}
+
+			div#Dtit h1 {
+				font-family: 'Arsenal';
+				font-size: 40px;
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+		div#botones {
+			/*background-color: green;*/
+			width: 600px;
+			height: inherit;
+			float: left;
+		}
+
+			div#botones a {
+				display: block;
+				height: inherit;
+				font-family: 'Quicksand', sans-serif;
+				font-size: 16px;
+				color: #949494;
+				text-decoration: none;
+				text-align: center;
+				line-height: 72px;
+			}
+
+			div#botones a:hover {
+				color: #212121;
+				background-color: #DCDCDC;
+			}
+
+			div#bot1 {
+				/*background-color: brown;*/
+				height: inherit;
+				width: 20%;
+				float: left;
+			}
+
+			div#bot2 {
+				/*background-color: red;*/
+				height: inherit;
+				width: 20%;
+				float: left;	
+			}
+
+			div#bot3 {
+				/*background-color: brown;*/
+				height: inherit;
+				width: 20%;
+				float: left;	
+			}
+
+			div#bot4 {
+				/*background-color: red;*/
+				height: inherit;
+				width: 20%;
+				float: left;	
+			}
+
+			div#bot5 {
+				/*background-color: brown;*/
+				height: inherit;
+				width: 20%;
+				float: left;	
+			}
+
+	div#Despcab {
+		/*background-color: yellow;*/
+		height: 40px;
+	}
+
+	div#Dcuerpo {
+		/*background-color: red;*/
+		height: 600px;
+	}
+
+		div#Dart {
+			/*background-color: teal;*/
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 100%;
+		}
+
+			div#Dart img {
+				margin: 0;
+				max-height: 100%;
+			    width: 100%;
+			    /*width: auto/9; 	/* Bug de ie8 */
+			}
+
+
+			.Htit {
+				/*background-color: grey;*/
+
+				margin-bottom: 5px;
+			}
+
+			.Hfecha {
+				/*background-color: blue;*/
+				color: #949494;
+				font-size: 13px;
+				font-family: 'Quicksand', sans-serif;
+				
+
+				margin-top: 0px;
+			}
